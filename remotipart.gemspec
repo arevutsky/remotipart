@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "remotipart"
-  s.version = "1.3.1"
+  s.version = "1.3.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Greg Leppert", "Steve Schwartz"]
-  s.date = "2016-10-06"
+  s.authors = ["Greg Leppert", "Steve Schwartz", "Alex Revutsky"]
+  s.date = "2016-10-10"
   s.description = "Remotipart is a Ruby on Rails gem enabling remote multipart forms (AJAX style file uploads) with jquery-rails.\n    This gem augments the native Rails 3 jQuery-UJS remote form function enabling asynchronous file uploads with little to no modification to your application.\n    "
   s.email = ["greg@formasfunction.com", "steve@alfajango.com"]
   s.extra_rdoc_files = [
@@ -60,4 +60,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, [">= 0"])
   end
 end
-
